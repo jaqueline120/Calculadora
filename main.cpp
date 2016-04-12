@@ -3,8 +3,8 @@
 #include <conio.h>
 
 int main() {
-  int number1;
-  int number2;
+  float number1;
+  float number2;
   Operations op;
 
   std::cout << "Digite o primeiro numero: ";
