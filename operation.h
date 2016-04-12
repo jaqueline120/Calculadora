@@ -1,15 +1,15 @@
 
 class Operations { 
  private :
-  int number1;
-  int number2;
+  float number1;
+  float number2;
  public :
-  void      setNumbers(int number1, int number2);
-  int    sum() const;
+  void      setNumbers(float number1, float number2);
+  float    sum() const;
   int    sub() const;
   int    mul() const;
   int   idiv() const;
   float fdiv() const;
-  int    res() const;
+  int  res() const;
   
 };

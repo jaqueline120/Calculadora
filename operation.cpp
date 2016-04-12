@@ -1,12 +1,12 @@
 #include "operation.h"
 
 	
-	void Operations::setNumbers(int a, int b){
+	void Operations::setNumbers(float a, float b){
 		number1 = a;
   		number2 = b;
 	}
 	
-	int  Operations::sum() const{
+	float  Operations::sum() const{
 			return number1 + number2;
 	}
 	
@@ -27,6 +27,6 @@
 	}
 	
 	int  Operations::res()const{
-		return number1 % number2;
+		return (int)number1 % (int)number2;
 	}
 	
